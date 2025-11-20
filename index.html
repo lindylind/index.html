@@ -74,35 +74,59 @@
     font-size: 1.08rem;
   }
 
-  .cta {
-    text-align: center;
-    margin-top: 70px;
-    padding: 50px;
-    background: #f9f9f9;
-    border-radius: 14px;
-    border: 1px solid #e6e6e6;
-    box-shadow: 0 6px 18px rgba(0,0,0,0.04);
-  }
-
-  .cta h2 {
-    border-bottom: none;
-    padding-bottom: 0;
-  }
-.cta a {
-background: #1a365d;
-color: #fff;
-padding: 10px 20px; 
-border-radius: 6px; 
-text-decoration: none;
-font-weight: 500;
-font-size: 1.05rem;
-display: inline-block;
-margin-top: 12px;
-transition: 0.2s ease;
+.cta {
+text-align: center;
+margin-top: 70px;
+padding: 50px;
+background: #f9f9f9;
+border-radius: 14px;
+border: 1px solid #e6e6e6;
+box-shadow: 0 6px 18px rgba(0,0,0,0.04);
 }
-  .cta a:hover {
-    background: #333;
-    transform: translateY(-3px);
+
+
+.cta h2 {
+border-bottom: none;
+padding-bottom: 0;
+}
+
+
+.cta a {
+background: transparent;
+color: #ff6f9c;
+padding: 6px 14px; /* very slim */
+border-radius: 6px; /* clean + modern, no pill shape */
+border: 1.5px solid #ff6f9c; /* minimal outline */
+text-decoration: none;
+font-weight: 600;
+font-size: 0.8rem; /* smaller text */
+display: inline-flex;
+align-items: center;
+gap: 6px;
+margin-top: 10px;
+box-shadow: none;
+transition: 0.25s ease;
+}
+.cta a:hover {
+background: #ff6f9c;
+color: #fff;
+transform: translateY(-1px);
+}
+.cta a:hover {
+transform: translateY(-2px);
+box-shadow: 0 6px 14px rgba(255, 120, 150, 0.35);
+background: linear-gradient(135deg, #ff8bbf, #ff6f85);
+}
+.cta a:hover {
+transform: translateY(-3px) scale(1.03);
+box-shadow: 0 10px 20px rgba(255, 120, 150, 0.45);
+background: linear-gradient(135deg, #ff8bbf, #ff6f85);
+}
+
+
+.cta a:hover {
+background: #333;
+transform: translateY(-3px);
   }
 
   footer {
